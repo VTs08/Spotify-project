@@ -1,0 +1,18 @@
+@import url(css/header.css);
+
+:root {
+    --fonte: 'Montserrat';
+    --preto: #000000;
+    --branco: #ffffff
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+}
+
+
