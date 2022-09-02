@@ -15,6 +15,12 @@
     <header class="cabecalho">
         <div class="cabecalho__container">
             <img src="img/spotify.svg" alt="Logo Spotify" class="cabecalho__logo">
+            <input type="checkbox" id="chec">
+            <label class="menu--hamburguer" for="chec">
+                <span class="menu--traco"></span>
+                <span class="menu--traco"></span>
+                <span class="menu--traco"></span>
+            </label>
             <nav class="cabecalho__nav">
                 <ul class="nav__lista">
                     <li class="lista__item">
@@ -30,15 +36,31 @@
                         <div class="item--parede"></div>
                     </li>
                     <li class="lista__item">
+                        <a href="#" class="item--link item--conta">Conta</a>
+                    </li>
+                    <li class="lista__item">
+                        <a href="#" class="item--link item--conta">Sair</a>
+                    </li>
+                    <li class="lista__item item-perfil">
                         <a href="#" class="item--link box--perfil">
                             <img src="./img/disgraaççaaa.jpg" class="perfil--img" alt="Foto de usúario">
-                            <span class="item--perfil">Perfil</span>
+                            <span class="perfil">Perfil</span>
                         </a>
                     </li>
                 </ul>
             </nav>
-
+            <img src="./img/disgraaççaaa.jpg" class="perfil--img perfil--img-mobile" alt="Foto de usúario">
         </div>
     </header>
+
+    <main class="principal">
+        <section class="banner">
+            <h1 class="banner--titulo">Curtição sem limites</h1>
+            <h2 class="banner--subtitulo subtitulo">Escolha entre milhões de músicas e curta quando quiser, sem anúncios e offline.</h2>
+            <a href="#" class="botao botao--comece">comece agora</a>
+            <a href="#" class="botao botao--planos">ver planos</a>
+            <a href="" class="termos-condicoes">Sujeito a Termos e Condições</a>
+        </section>
+    </main>
 </body>
 </html>

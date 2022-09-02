@@ -17,7 +17,6 @@
     width: 120px;
 }
 
-.cabecalho__nav {}
 
 .nav__lista {
     display: flex;
@@ -35,9 +34,14 @@
 }
 
 .item--parede {
-    height: 20px;
-    width: 1px;
+    height: 22px;
+    width: 3px;
     background-color: var(--branco);
+}
+
+.item-perfil {
+    display: flex;
+    padding-right: 0;
 }
 
 .box--perfil {
@@ -50,3 +54,90 @@
     border-radius: 50%;
     margin-right: 1rem;
 }
+
+.cabecalho__container input {
+    display: none;
+}
+
+.perfil--img-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__container {
+        justify-content: space-between;
+    }
+
+    .cabecalho__nav {
+        display: none;
+    }
+
+    .nav__lista {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: url(../img/spotify.svg);
+        background-size: 100px;
+        background-position: 40px 95%;
+        background-repeat: no-repeat;
+        background-color: var(--preto);
+        width: 60%;
+        height: 100%;
+    }
+
+    .lista__item {
+        margin-bottom:30px;
+    }
+
+    .item--link {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .item--parede {
+        height: 3px;
+        width: 22px;
+        background-color: var(--branco);
+    }
+
+    .item--conta {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .item-perfil {
+        display: none;
+    }
+
+    .menu--traco {
+        display: block;
+        width: 22px;
+        height: 3px;
+        border-radius: 5px;
+        margin: 4px 0;
+        background-color: var(--branco);
+    }
+
+    .cabecalho {
+        height: 55px;
+    }
+
+    .cabecalho__logo {
+        width: 90px;
+    }
+
+    .perfil--img {
+        width: 35px;
+    }
+
+    .perfil--img-mobile {
+        display: block;
+        position: absolute;
+        right: 40px;
+    }
+}
+
