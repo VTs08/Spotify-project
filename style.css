@@ -1,9 +1,11 @@
 @import url(css/header.css);
+@import url(css/banner.css);
 
 :root {
     --fonte: 'Montserrat';
     --preto: #000000;
-    --branco: #ffffff
+    --branco: #ffffff;
+    --azul: #1D75DE;
 }
 
 * {
