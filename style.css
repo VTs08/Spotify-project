@@ -1,5 +1,6 @@
 @import url(css/header.css);
 @import url(css/banner.css);
+@import url(css/premium.css);
 
 :root {
     --fonte: 'Montserrat';
@@ -15,6 +16,11 @@
 body {
     font-family: var(--fonte);
     font-size: 16px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 
